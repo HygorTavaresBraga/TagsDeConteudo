@@ -1,2 +1,2 @@
 # TagsDeConteudo
-Página HTML com tags de conteúdo básicas.
+Páginas HTML com tags de conteúdo básicas.
