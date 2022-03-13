@@ -1,0 +1,87 @@
+<!-- DIV COM DISPLAY FLEX -->
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 01 - Div 01 (display flex)</title>
+
+    <link rel="stylesheet" href="style.css"> <!-- LINK DO CSS EXTERNO -->
+
+    <!-- TAG STYLE PARA O CSS INTERNO -->
+    <style> 
+
+        body{
+            height: 1600px;
+        }
+
+        .container-pai-internal{
+            width: 100%;
+            height: 520px;
+            display: flex;
+            background-color: black;
+        }
+
+        .container-filho-internal{
+            width: 50%;
+            height: 500px;
+            background-color: brown;
+            margin: 10px 10px 10px 10px;
+        }
+
+    </style>
+
+
+
+</head>
+<body>
+            <!-- DIV COM CSS INLINE (EM LINHA)-->
+    <div>
+
+        <div style="width: 100%; height: 520px; display: flex; background-color: rgb(255, 0, 0);">
+           
+            <div style="width: 50%; height: 500px; background-color: rgb(0, 17, 255); margin: 10px;"></div>
+    
+            <div style="width: 50%; height: 500px; background-color: rgb(0, 17, 255); margin: 10px;"></div>
+
+        </div>
+
+        
+
+    </div>
+    
+        <br><!-- DIV COM CSS INTERNAL (INTERNO)-->
+
+    <div>
+
+        <div class="container-pai-internal">
+            
+            <div class="container-filho-internal"></div>
+    
+            <div class="container-filho-internal"></div>
+
+        </div>
+
+        
+
+    </div>
+
+        <br><!-- DIV COM CSS EXTERNAL (EXTERNO)-->
+
+    <div>
+
+        <div class="container-pai-external">
+            
+            <div class="container-filho-external"></div>
+    
+            <div class="container-filho-external"></div>
+
+        </div>
+
+        
+
+    </div>
+
+</body>
+</html>
